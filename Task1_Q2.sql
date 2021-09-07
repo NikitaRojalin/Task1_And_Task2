@@ -1,0 +1,10 @@
+INSERT INTO users values ('Ram',111,'Ram@mail.com'),('Sita',112,'Sita@mail.com');
+INSERT INTO users values ('Abhijit',113,'Abhijit@mail.com'),('Naira',114,'Naira@mail.com'),('Mina',115,'Mina@mail.com');
+insert into codekata values(111,35),(112,50),(113,5),(114,67),(115,98);
+insert into attendance values(111,'yes'),(112,'no'),(113,'yes'),(114,'yes'),(115,'yes');
+insert into topics values('String',196),('arrays',98),('input-output',89),('beginner',200),('hashing',56);
+insert into tasks values('Task1',1),('Mysql',2),('Mongodb',3),('Task4',4),('Assignment',5);
+insert into company_drives values(112,'Wipro'),(118,'Cognizant'),(120,'Microsoft'),(113,'TCS'),(114,'Amazon');
+insert into mentors values(1,'Apurva Sahoo',34),(2,'Sanket Narayan',78),(3,'Ved bhat',56),(4,'Lusi nen',98),(5,'Namita Ray',79);
+insert into students_activated_courses values(111,'JAVA'),(112,'C'),(113,'DSA ,JAVA'),(114,'ML,CPP'),(115,'Robotics');
+insert into courses values(1,'JAVA'),(2,'DSA'),(3,'C'),(4,'ML'),(5,'CPP'),(6,'Robotics');

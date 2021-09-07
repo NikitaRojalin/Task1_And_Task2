@@ -1,0 +1,11 @@
+Create database datastore;
+use datastore;
+create table users(name varchar(30),roll_no int,email varchar(40));
+create table codekata(roll_no int,program_solved int);
+create table attendance(roll_no int,prsent varchar(7));
+create table topics(topic_name varchar(30),total_problems int);
+create table tasks(task_name varchar(30),task_number int);
+create table company_drives(roll_no int,company_name varchar(30));
+create table mentors(id int,mentor_name varchar(30),assigned_students int);
+create table students_activated_courses(roll_no int,courses_taken varchar(45));
+create table courses(course_id int,course_name varchar(30));
